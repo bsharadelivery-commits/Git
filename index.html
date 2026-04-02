@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>بشارة - X Plus</title>
+    <style>
+        body {
+            background: radial-gradient(circle, #1a1a1a, #000);
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .logo {
+            font-size: 80px;
+            font-weight: bold;
+            color: #d4af37;
+            text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
+            margin-bottom: 20px;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+        }
+        .nav-dots {
+            position: fixed;
+            bottom: 30px;
+            display: flex;
+            gap: 20px;
+        }
+        .dot {
+            width: 15px;
+            height: 15px;
+            background: #d4af37;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #d4af37;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .dot:hover { transform: scale(1.5); }
+    </style>
+</head>
+<body>
+
+    <div class="logo">بشارة</div>
+    
+    <div class="glass-card">
+        <h2>مرحباً بك في X Plus</h2>
+        <p>التصميم الزجاجي الذهبي جاهز للعمل</p>
+    </div>
+
+    <div class="nav-dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+
+</body>
+</html>
