@@ -12,30 +12,44 @@
             display: flex; flex-direction: column; align-items: center; justify-content: center;
             height: 100vh; margin: 0; overflow: hidden;
         }
-        .logo {
-            font-size: 55px; font-weight: 900; color: #ffffff;
-            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-            margin-bottom: 15px; text-transform: uppercase;
+        .logo-text {
+            font-size: 50px; font-weight: 900; color: #ffffff;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+            margin-bottom: 20px; text-transform: uppercase;
         }
         .glass-card {
             background: rgba(255, 255, 255, 0.05);
             backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 35px 60px; border-radius: 30px; text-align: center;
+            padding: 40px; border-radius: 30px; text-align: center;
+            width: 300px;
+        }
+        /* تصميم مكان اللوجو */
+        .logo-img {
+            width: 120px; height: 120px;
+            margin: 0 auto 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            display: flex; align-items: center; justify-content: center;
+            box-shadow: 0 0 30px rgba(212, 175, 55, 0.3); /* توهج ذهبي خفيف */
         }
         .nav-dots { position: fixed; bottom: 45px; display: flex; gap: 22px; }
         .dot {
             width: 12px; height: 12px; background: #ffffff; border-radius: 50%;
-            box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); opacity: 0.5;
+            opacity: 0.5;
         }
     </style>
 </head>
 <body>
-    <div class="logo">Bshara Eats</div>
+    <div class="logo-text">Bshara Eats</div>
+    
     <div class="glass-card">
-        <h2 style="margin: 0; font-weight: 300;">Premium Delivery</h2>
-        <p style="opacity: 0.6; margin-top: 10px; letter-spacing: 2px;">COMING SOON</p>
+        <div class="logo-img">
+            <span style="color: #ffd700; font-size: 40px; filter: drop-shadow(0 0 10px #ffd700);">B</span>
+        </div>
+        <h2 style="margin: 0; font-weight: 300; font-size: 18px;">Premium Delivery</h2>
     </div>
+
     <div class="nav-dots">
         <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
     </div>
