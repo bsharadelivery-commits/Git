@@ -1,71 +1,43 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>بشارة - X Plus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bshara Eats</title>
     <style>
         body {
             background: radial-gradient(circle, #1a1a1a, #000);
             color: white;
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            overflow: hidden;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            height: 100vh; margin: 0; overflow: hidden;
         }
         .logo {
-            font-size: 80px;
-            font-weight: bold;
-            color: #d4af37;
-            text-shadow: 0 0 20px rgba(212, 175, 55, 0.8);
-            margin-bottom: 20px;
+            font-size: 55px; font-weight: 900; color: #ffffff;
+            text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+            margin-bottom: 15px; text-transform: uppercase;
         }
         .glass-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            padding: 40px;
-            border-radius: 20px;
-            text-align: center;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+            padding: 35px 60px; border-radius: 30px; text-align: center;
         }
-        .nav-dots {
-            position: fixed;
-            bottom: 30px;
-            display: flex;
-            gap: 20px;
-        }
+        .nav-dots { position: fixed; bottom: 45px; display: flex; gap: 22px; }
         .dot {
-            width: 15px;
-            height: 15px;
-            background: #d4af37;
-            border-radius: 50%;
-            box-shadow: 0 0 10px #d4af37;
-            cursor: pointer;
-            transition: 0.3s;
+            width: 12px; height: 12px; background: #ffffff; border-radius: 50%;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.4); opacity: 0.5;
         }
-        .dot:hover { transform: scale(1.5); }
     </style>
 </head>
 <body>
-
-    <div class="logo">بشارة</div>
-    
+    <div class="logo">Bshara Eats</div>
     <div class="glass-card">
-        <h2>مرحباً بك في X Plus</h2>
-        <p>التصميم الزجاجي الذهبي جاهز للعمل</p>
+        <h2 style="margin: 0; font-weight: 300;">Premium Delivery</h2>
+        <p style="opacity: 0.6; margin-top: 10px; letter-spacing: 2px;">COMING SOON</p>
     </div>
-
     <div class="nav-dots">
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
-        <div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
     </div>
-
 </body>
 </html>
